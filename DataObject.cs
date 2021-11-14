@@ -78,6 +78,10 @@ namespace SagePay.IntegrationKit
         public string AcsUrl { get; set; }
         public string PaReq { get; set; }
         public string PaRes { get; set; }
+        public string CReq { get; set; }
+        public string ACSTransID { get; set; }
+        public string DSTransID { get; set; }
+        public string ThreeDSNotificationUrl { get; set; }
         public string PayPalRedirectUrl { get; set; }
         public string AddressStatus { get; set; }
         public string PayerStatus { get; set; }
@@ -119,5 +123,13 @@ namespace SagePay.IntegrationKit
         public string VendorData { get; set; }
         public string CustomerXml { get; set; }
         public int StoreToken { get; set; }
+        public int BrowserJavaEnabled { get; set; }
+        public int BrowserColorDepth { get; set; }
+        public int BrowserScreenHeight { get; set; }
+        public int BrowserScreenWidth { get; set; }
+        public string BrowserTZ { get; set; }
+        public string BrowserAcceptHeader { get; set; }
+        public string BrowserUserAgent { get; set; }
+        public string ChallengeWindowSize { get; set; }
     }
 }

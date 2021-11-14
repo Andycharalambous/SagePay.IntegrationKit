@@ -341,6 +341,15 @@
             ProtocolField.FI_RECIPIENT_POST_CODE,       // for 6012 merchant code only
             ProtocolField.FI_RECIPIENT_SURNAME,         // for 6012 merchant code only
 
+            ProtocolField.BROWSER_JAVA_ENABLED,
+            ProtocolField.BROWSER_COLOR_DEPTH,
+            ProtocolField.BROWSER_SCREEN_HEIGHT,
+            ProtocolField.BROWSER_SCREEN_WIDTH,
+            ProtocolField.BROWSER_TZ,
+            ProtocolField.BROWSER_ACCEPT_HEADER,
+            ProtocolField.BROWSER_USER_AGENT,
+            ProtocolField.CHALLENGE_WINDOW_SIZE,
+            ProtocolField.THREEDS_NOTIFICATION_URL
             }
                 )]
         DIRECT_PAYMENT,

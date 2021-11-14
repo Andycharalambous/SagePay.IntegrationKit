@@ -65,6 +65,33 @@
 
         [SagePayProtocolVersion(ProtocolVersion.V_300)]
         string FiRecipientSurname { get; set; }
+        
+        [SagePayProtocolVersion(ProtocolVersion.V_400)]
+        int BrowserJavaEnabled { get; set; }
+        
+        [SagePayProtocolVersion(ProtocolVersion.V_400)]
+        int BrowserColorDepth { get; set; }
+        
+        [SagePayProtocolVersion(ProtocolVersion.V_400)]
+        int BrowserScreenWidth { get; set; }
+        
+        [SagePayProtocolVersion(ProtocolVersion.V_400)]
+        int BrowserScreenHeight { get; set; }
+        
+        [SagePayProtocolVersion(ProtocolVersion.V_400)]
+        string BrowserTZ { get; set; }
+        
+        [SagePayProtocolVersion(ProtocolVersion.V_400)]
+        string BrowserAcceptHeader { get; set; }
+        
+        [SagePayProtocolVersion(ProtocolVersion.V_400)]
+        string BrowserUserAgent { get; set; }
+        
+        [SagePayProtocolVersion(ProtocolVersion.V_400)]
+        string ThreeDSNotificationUrl { get; set; }
+        
+        [SagePayProtocolVersion(ProtocolVersion.V_400)]
+        string ChallengeWindowSize { get; set; }
 
     }
 }

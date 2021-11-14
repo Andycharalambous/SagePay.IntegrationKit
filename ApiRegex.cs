@@ -77,7 +77,10 @@
         ALPHA_NUMERIC,
         [ApiRegexAttr(".*")]
         ANY,
-
+        [ApiRegexAttr("(1|4|8|15|16|24|32|48)")]
+        COLOR_DEPTH,
+        [ApiRegexAttr("(+|\\-)\\d{1,2}")]
+        TIME_ZONE_OFFSET,
         // Below are regexes for internal fields
         [ApiRegexAttr(".{1,100}")]
         VENDOR_PROVIDED_NAME

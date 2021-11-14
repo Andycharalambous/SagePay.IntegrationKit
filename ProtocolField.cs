@@ -213,5 +213,34 @@
 
         [ProtocolFieldAttr("FiRecipientSurname", ProtocolType.CUSTOMER_NAME)]
         FI_RECIPIENT_SURNAME,
+        
+        // 3DSv2
+        [ProtocolFieldAttr("BrowserJavaEnabled", ProtocolType.APPLY_FLAGS)]
+        BROWSER_JAVA_ENABLED,
+        
+        [ProtocolFieldAttr("BrowserColorDepth", ProtocolType.COLOR_DEPTH)]
+        BROWSER_COLOR_DEPTH,
+        
+        [ProtocolFieldAttr("BrowserScreenHeight", ProtocolType.LARGE)]
+        BROWSER_SCREEN_HEIGHT,
+        
+        [ProtocolFieldAttr("BrowserScreenWidth", ProtocolType.LARGE)]
+        BROWSER_SCREEN_WIDTH,
+        
+        [ProtocolFieldAttr("BrowserTZ", ProtocolType.TIME_ZONE_OFFSET)]
+        BROWSER_TZ,
+        
+        [ProtocolFieldAttr("BrowserAcceptHeader", ProtocolType.BROWSER_HEADER)]
+        BROWSER_ACCEPT_HEADER,
+        
+        [ProtocolFieldAttr("BrowserUserAgent", ProtocolType.BROWSER_HEADER)]
+        BROWSER_USER_AGENT,
+        
+        [ProtocolFieldAttr("ChallengeWindowSize", ProtocolType.CHALLENGE_WINDOW_SIZE)]
+        CHALLENGE_WINDOW_SIZE,
+        
+        [ProtocolFieldAttr("ThreeDSNotificationURL", ProtocolType.WEB_URL)]
+        THREEDS_NOTIFICATION_URL,
+        
     }
 }

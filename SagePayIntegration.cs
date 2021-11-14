@@ -54,6 +54,7 @@ namespace SagePay.IntegrationKit
                 mapCols.Add("PayPalRedirectURL", "PayPalRedirectUrl");
                 mapCols.Add("token", "Token");
                 mapCols.Add("PARes", "PaRes");
+                mapCols.Add("ThreeDSNotificationUrl", "ThreeDSNotificationURL");
 
                 mapCols.Add("FiRecipientAcctNumber", "FiRecipientAccountNumber");
                 mapCols.Add("FiRecipientDob", "FiRecipientDateOfBirth");

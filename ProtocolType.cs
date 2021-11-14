@@ -103,6 +103,14 @@
         [ProtocolTypeAttr(ApiRegex.ANY, 1, 15)]
         DOB,
         [ProtocolTypeAttr(ApiRegex.ANY, 1, 40)]
-        REFERRER_ID
+        REFERRER_ID,
+        [ProtocolTypeAttr(ApiRegex.COLOR_DEPTH, 1, 2)]
+        COLOR_DEPTH,
+        [ProtocolTypeAttr(ApiRegex.TIME_ZONE_OFFSET, 1, 2)]
+        TIME_ZONE_OFFSET,
+        [ProtocolTypeAttr(ApiRegex.ANY, 1, 2048)]
+        BROWSER_HEADER,
+        [ProtocolTypeAttr(ApiRegex.ANY, 2, 2)]
+        CHALLENGE_WINDOW_SIZE
     }
 }
