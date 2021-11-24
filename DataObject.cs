@@ -130,6 +130,8 @@ namespace SagePay.IntegrationKit
         public string BrowserTZ { get; set; }
         public string BrowserAcceptHeader { get; set; }
         public string BrowserUserAgent { get; set; }
+        public string BrowserLanguage { get; set; }
         public string ChallengeWindowSize { get; set; }
+        public int BrowserJavascriptEnabled { get; set; }
     }
 }

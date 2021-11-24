@@ -346,10 +346,12 @@
             ProtocolField.BROWSER_SCREEN_HEIGHT,
             ProtocolField.BROWSER_SCREEN_WIDTH,
             ProtocolField.BROWSER_TZ,
+            ProtocolField.BROWSER_LANGUAGE,
             ProtocolField.BROWSER_ACCEPT_HEADER,
             ProtocolField.BROWSER_USER_AGENT,
             ProtocolField.CHALLENGE_WINDOW_SIZE,
-            ProtocolField.THREEDS_NOTIFICATION_URL
+            ProtocolField.THREEDS_NOTIFICATION_URL,
+            ProtocolField.BROWSER_JAVASCRIPT_ENABLED
             }
                 )]
         DIRECT_PAYMENT,

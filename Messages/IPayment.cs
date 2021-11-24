@@ -79,6 +79,9 @@
         int BrowserScreenHeight { get; set; }
         
         [SagePayProtocolVersion(ProtocolVersion.V_400)]
+        int BrowserJavascriptEnabled { get; set; }
+        
+        [SagePayProtocolVersion(ProtocolVersion.V_400)]
         string BrowserTZ { get; set; }
         
         [SagePayProtocolVersion(ProtocolVersion.V_400)]
@@ -86,6 +89,9 @@
         
         [SagePayProtocolVersion(ProtocolVersion.V_400)]
         string BrowserUserAgent { get; set; }
+        
+        [SagePayProtocolVersion(ProtocolVersion.V_400)]
+        string BrowserLanguage { get; set; }
         
         [SagePayProtocolVersion(ProtocolVersion.V_400)]
         string ThreeDSNotificationUrl { get; set; }

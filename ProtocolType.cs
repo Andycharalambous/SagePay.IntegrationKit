@@ -111,6 +111,8 @@
         [ProtocolTypeAttr(ApiRegex.ANY, 1, 2048)]
         BROWSER_HEADER,
         [ProtocolTypeAttr(ApiRegex.ANY, 2, 2)]
-        CHALLENGE_WINDOW_SIZE
+        CHALLENGE_WINDOW_SIZE,
+        [ProtocolTypeAttr(ApiRegex.ANY, 2, 6)]
+        BROWSER_LANGUAGE,
     }
 }

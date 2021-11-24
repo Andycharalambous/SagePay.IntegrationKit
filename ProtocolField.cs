@@ -236,6 +236,12 @@
         [ProtocolFieldAttr("BrowserUserAgent", ProtocolType.BROWSER_HEADER)]
         BROWSER_USER_AGENT,
         
+        [ProtocolFieldAttr("BrowserLanguage", ProtocolType.BROWSER_LANGUAGE)]
+        BROWSER_LANGUAGE,
+        
+        [ProtocolFieldAttr("BrowserJavascriptEnabled", ProtocolType.ZERO_OR_ONE)]
+        BROWSER_JAVASCRIPT_ENABLED,
+        
         [ProtocolFieldAttr("ChallengeWindowSize", ProtocolType.CHALLENGE_WINDOW_SIZE)]
         CHALLENGE_WINDOW_SIZE,
         
