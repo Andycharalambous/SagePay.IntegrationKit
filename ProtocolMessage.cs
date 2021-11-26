@@ -458,7 +458,8 @@
             ProtocolField.DECLINE_CODE, 
             ProtocolField.BANK_AUTH_CODE, 
             ProtocolField.TOKEN, 
-            ProtocolField.SURCHARGE 
+            ProtocolField.SURCHARGE,
+            ProtocolField.SCHEME_TRACE_ID
             })]
         DIRECT_PAYMENT_RESULT,
 

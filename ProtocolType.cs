@@ -114,5 +114,7 @@
         CHALLENGE_WINDOW_SIZE,
         [ProtocolTypeAttr(ApiRegex.ANY, 2, 6)]
         BROWSER_LANGUAGE,
+        [ProtocolTypeAttr(ApiRegex.ANY, 2, 100)]
+        SCHEME_TRACE_ID,
     }
 }

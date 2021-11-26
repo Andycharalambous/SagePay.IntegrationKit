@@ -13,5 +13,6 @@
         string CReq { get; set; }
         string ACSTransID { get; set; }
         string DSTransID { get; set; }
+        string SchemeTraceID { get; set; }
     }
 }

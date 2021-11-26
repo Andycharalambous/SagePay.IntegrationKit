@@ -133,5 +133,6 @@ namespace SagePay.IntegrationKit
         public string BrowserLanguage { get; set; }
         public string ChallengeWindowSize { get; set; }
         public int BrowserJavascriptEnabled { get; set; }
+        public string SchemeTraceID { get; set; }
     }
 }

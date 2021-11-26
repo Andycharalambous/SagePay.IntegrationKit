@@ -248,5 +248,8 @@
         [ProtocolFieldAttr("ThreeDSNotificationURL", ProtocolType.WEB_URL)]
         THREEDS_NOTIFICATION_URL,
         
+        [ProtocolFieldAttr("SchemeTraceID", ProtocolType.SCHEME_TRACE_ID)]
+        SCHEME_TRACE_ID,
+        
     }
 }
